@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+                  http://www.springframework.org/schema/beans 
+                  http://www.springframework.org/schema/beans/spring-beans.xsd
+                  http://www.springframework.org/schema/context 
+                  http://www.springframework.org/schema/context/spring-context.xsd">
+                  
+                         
+       
+      <context:component-scan base-package="com.vathsa.spcd.beans"/>
+
+
+    <!-- <bean id ="wish1" class="com.vathsa.spcd.beans.Wish"  >
+        <property name="message" value="Hello Welcome" /> 
+    </bean>-->
+         
+</beans>
+
+
+
+
+  <!-- <property name="hno"          value="1-2-3"/>
+        <property name="streetName"   value="MG Street"/>
+        <property name="city"         value="Banglore"/>
+        <property name="state"        value="Karnataka"/>
+    </bean> -->
+    
+    <!-- <property name="ssn"       value="786"/>
+          <property name="name"      value="MS Dhoni"/>
+          <property name="age"       value="35"/>
+          <property name="Address"   ref="add1"/>
+          
+    </bean>-->
+    
+    
+    
+    
+    <!-- <bean  id="add1"  class="com.vathsa.spcd.beans.Address" >  
+        <property name="hno"          value="1-2-3"/>
+        <property name="streetName"   value="MG Street"/>
+        <property name="city"         value="Banglore"/>
+        <property name="state"        value="Karnataka"/>     
+    </bean>    
+    
+    <bean  id="per1"  class= "com.vathsa.spcd.beans.Person">
+          <property name="ssn"       value="786"/>
+          <property name="name"      value="MS Dhoni"/>
+          <property name="age"       value="35"/>
+            <property name="Address"   ref="add1"/>    
+     </bean>  -->
+   
+    
